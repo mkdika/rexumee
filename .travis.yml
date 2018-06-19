@@ -1,0 +1,19 @@
+language: java
+
+sudo: false
+
+dist: trusty
+
+jdk:
+  - openjdk8
+  
+script: mvn clean install
+  
+branches:
+  only:
+  - master
+  
+cache:
+  directories:
+  - .autoconf
+  - $HOME/.m2

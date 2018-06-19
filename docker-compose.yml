@@ -1,0 +1,9 @@
+# the version of docker-compose document
+version: "2"
+
+services:
+    app-rexumee:
+        build: .
+        image: app-rexumee
+        ports:
+            - "80:8787"

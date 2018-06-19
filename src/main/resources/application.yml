@@ -1,0 +1,96 @@
+# =================== SPRING BOOT CONFIG - DO NOT EDIT ========================
+server:
+    port: 8080
+    compression:
+        enabled: true
+        mime-types: application/json,application/xml,text/html,text/xml,text/plain,application/javascript,text/css,application/font-woff2
+spring:
+    application:
+        name:  rexumee
+    resources:
+        cache-period: 604800
+    main:
+        logStartupInfo: false           
+info:
+    app:
+        description: A simple one page website for professional resume webpage.
+freemarker:
+        template-loader-path: classpath:/templates
+        suffix: .ftl  
+       
+        
+# ======================== RESUME CONTENT - EDIT START HERE ===================
+resume:
+        pictureUrl: http://i.imgur.com/rvYBV5o.jpg
+        firstName: John
+        lastName: Doe
+        title: Senior Software Engineer
+        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ligula vel sapien suscipit, sed posuere nisl aliquam. Fusce volutpat vehicula lobortis. Mauris dapibus metus ut ultrices maximus. Nulla ante sapien, feugiat vestibulum mattis ut, iaculis vitae nisl. Vivamus tincidunt, arcu id maximus aliquet, tortor augue porttitor augue, ac tempus eros leo sed magna. Sed molestie nibh sit amet rutrum aliquam. Nam aliquam rutrum vestibulum. Curabitur convallis facilisis sem, eget maximus magna viverra nec. Praesent facilisis, neque in cursus ornare, tortor magna pulvinar lorem, efficitur euismod augue diam vitae arcu. Donec eu sem sit amet mauris aliquam cursus et nec neque. Etiam et lacinia augue."
+        interests: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ligula vel sapien suscipit, sed posuere nisl aliquam. Fusce volutpat vehicula lobortis. Mauris dapibus metus ut ultrices maximus. Nulla ante sapien, feugiat vestibulum mattis ut, iaculis vitae nisl. Vivamus tincidunt, arcu id maximus aliquet, tortor augue porttitor augue, ac tempus eros leo sed magna. Sed molestie nibh sit amet rutrum aliquam. Nam aliquam rutrum vestibulum. Curabitur convallis facilisis sem, eget maximus magna viverra nec. Praesent facilisis, neque in cursus ornare, tortor magna pulvinar lorem, efficitur euismod augue diam vitae arcu. Donec eu sem sit amet mauris aliquam cursus et nec neque. Etiam et lacinia augue."                                
+        address: Jakarta, Indonesia 
+        mobile: +6212345678
+        email: john.doe@gmail.com
+        skype: "live:doejohn"
+        facebook: john.doe
+        twitter: john.doe
+        linkedIn: john.doe
+        github: john.doe
+        experiences:
+            -
+                title: Senior Software Engineer
+                company: XYZ Group
+                website: http://www.xyz-group.com
+                period: June 2017 - Present
+                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ligula vel sapien suscipit, sed posuere nisl aliquam."
+                tech: Java, Spring, Hibernate
+            -
+                title: Software Engineer
+                company: ZZZ E-Commerce
+                website: https://www.zzz.com
+                period: March 2015 - May 2017
+                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ligula vel sapien suscipit, sed posuere nisl aliquam."
+                tech: Java, EJB, JSF   
+        educations:
+            -
+                title: Bachelor of Computer Science
+                institution: University of AAA
+                website: #
+                period: 2012 - 2015
+                description: Computer Science - Informatics Engineering
+                gpa: 3.99
+        courses:
+            -
+                title: Java Memory Management                
+                institution: Udemy
+                website: https://www.udemy.com/
+                year: 2017
+            -
+                title: Spring Framework              
+                institution: Udemy
+                website: https://www.udemy.com/
+                year: 2016
+        certification:
+            -
+                title: Oracle Certified Associate Java Programmer 8
+                url: #
+                period: 2015     
+        skills:
+            -
+                subject: "<b>Programming language:</b> Java, Javascript"
+            -
+                subject: "<b>Framework & Library:</b> Spring, Hibernate, Guice"           
+            -
+                subject: "<b>Database:</b> PostgreSQL, MySQL"           
+            -
+                subject: "<b>Dev Tools:</b> Maven, Git"            
+        opensource:
+            -
+                title: BlaBla-1
+                description: Lorem ipsum dolor sit amet.
+                url:
+        proprietary:
+             -
+                title: BlaBla Pro
+                description: Lorem ipsum dolor sit amet.
+                url:
+            
