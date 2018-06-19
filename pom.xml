@@ -70,6 +70,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <finalName>app-resume</finalName>
+        <finalName>rexumee</finalName>
     </build>
 </project>

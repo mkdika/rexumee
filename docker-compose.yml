@@ -2,8 +2,8 @@
 version: "2"
 
 services:
-    app-rexumee:
+    rexumee:
         build: .
-        image: app-rexumee
+        image: rexumee
         ports:
-            - "80:8787"
+            - "80:8080"
