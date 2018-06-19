@@ -7,6 +7,9 @@ dist: trusty
 jdk:
   - openjdk8
   
+before_install:
+  - chmod +x mvnw  
+  
 script: mvn clean install
   
 branches:
