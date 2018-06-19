@@ -7,7 +7,7 @@ dist: trusty
 jdk:
   - openjdk8
   
-script: mvn clean install
+script: mvn clean package
   
 branches:
   only:

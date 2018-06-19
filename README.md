@@ -1,5 +1,6 @@
 # Rexumee
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green.svg)](/LICENSE)
+[![Build Status](https://travis-ci.org/mkdika/rexumee.svg?branch=master)](https://travis-ci.org/mkdika/rexumee)
 
 A simple one page website for professional resume. 
 
