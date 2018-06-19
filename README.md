@@ -8,7 +8,6 @@ A simple one page website for professional resume.
 
 
 
-
 ## Tech Stack and Library
 
 - Java 8
@@ -36,6 +35,7 @@ To edit resume content with your preferences, open the file: `src/main/resources
 mvnw clean package
 ```
 
+
 #### Running the Application
 
 ```console
@@ -48,7 +48,24 @@ Application will run on port `8080`, access the URL  [http://localhost:8080](htt
 
 ## Docker Deployment
 
-_coming soon.._
+Make sure you have installed Docker & Docker Compose prior to do the deployment. 
+
+- Find out the documentation about Docker Installation at [here](https://docs.docker.com/install/).
+- How to install Docker-Compose [here](https://docs.docker.com/compose/install/).
+
+After that run this from the `docker-compose.yml` & `Dockerfile` location:
+
+```console
+docker-compose up -d
+```
+
+Check whether the deployment run properly:
+
+```console
+docker ps
+```
+
+And you can access the webpage from port `80`.
 
 
 
