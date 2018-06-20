@@ -4,7 +4,7 @@
 
 A simple one page website for professional resume. 
 
-**Rexumee** is using a minimalize Spring Boot stack with embedded web server, and a YAML file for the resume content. All you need is download (clone) the source code, build and test within Localhost environment or build the Docker container for production deployment. 
+**Rexumee** is using a minimalize Spring Boot stack with embedded web server, and a YAML file for the resume content. Just download (clone) the source code, build and test from local environment or build the Docker container for production deployment. 
 
 
 
@@ -23,7 +23,7 @@ A simple one page website for professional resume.
 
 ## Edit Resume Content
 
-To edit resume content with your preferences, open the file: `src/main/resources/application.yml` , then edit under the `resume` sections. All the content structure are using [YAML](http://yaml.org/) markup language convention. Check the customable fields from example or from the [online preview](https://www.mkdika.com).
+To edit resume content with your preferences, open the file: `src/main/resources/application.yml` , then edit under the `resume` sections. All the content structure are using [YAML](http://yaml.org/) markup language convention. Check the customable fields from example or from the [online demo](https://www.mkdika.com).
 
 
 
@@ -46,7 +46,7 @@ Application will run on port `8080`, access the URL  [http://localhost:8080](htt
 
 #### Running Application (alternative)
 
-There is alternative in order to run the application. After build, go to `target` folder, make sure there is `rexumee.jar` file. Then, from that folder run:
+There is alternative for run the application. After build, go to `target` folder, make sure there is `rexumee.jar` file. Then, from that folder run:
 
 ```console
 java -jar rexumee.jar
@@ -56,7 +56,7 @@ java -jar rexumee.jar
 
 ## Docker Deployment
 
-Make sure you have installed Docker & Docker Compose prior to deployment. 
+Make sure you have installed Docker & Docker Compose prior to deployment, if not:
 
 - Find out the documentation about Docker Installation at [here](https://docs.docker.com/install/).
 - How to install Docker-Compose [here](https://docs.docker.com/compose/install/).
