@@ -24,11 +24,11 @@ resume:
         pictureUrl: http://i.imgur.com/rvYBV5o.jpg
         firstName: John
         lastName: Doe
-        title: Senior Software Engineer
+        title: Senior Java Developer
         bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ligula vel sapien suscipit, sed posuere nisl aliquam. Fusce volutpat vehicula lobortis. Mauris dapibus metus ut ultrices maximus. Nulla ante sapien, feugiat vestibulum mattis ut, iaculis vitae nisl. Vivamus tincidunt, arcu id maximus aliquet, tortor augue porttitor augue, ac tempus eros leo sed magna. Sed molestie nibh sit amet rutrum aliquam. Nam aliquam rutrum vestibulum. Curabitur convallis facilisis sem, eget maximus magna viverra nec. Praesent facilisis, neque in cursus ornare, tortor magna pulvinar lorem, efficitur euismod augue diam vitae arcu. Donec eu sem sit amet mauris aliquam cursus et nec neque. Etiam et lacinia augue."
         interests: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ligula vel sapien suscipit, sed posuere nisl aliquam. Fusce volutpat vehicula lobortis. Mauris dapibus metus ut ultrices maximus. Nulla ante sapien, feugiat vestibulum mattis ut, iaculis vitae nisl. Vivamus tincidunt, arcu id maximus aliquet, tortor augue porttitor augue, ac tempus eros leo sed magna. Sed molestie nibh sit amet rutrum aliquam. Nam aliquam rutrum vestibulum. Curabitur convallis facilisis sem, eget maximus magna viverra nec. Praesent facilisis, neque in cursus ornare, tortor magna pulvinar lorem, efficitur euismod augue diam vitae arcu. Donec eu sem sit amet mauris aliquam cursus et nec neque. Etiam et lacinia augue."                                
-        address: Jakarta, Indonesia 
-        mobile: +6212345678
+        address: Medan, North Sumatera, Indonesia 
+        mobile: +62123456789
         email: john.doe@gmail.com
         skype: "live:doejohn"
         facebook: john.doe

@@ -23,7 +23,7 @@ A simple one page website for professional resume.
 
 ## Edit Resume Content
 
-To edit resume content with your preferences, open the file: `src/main/resources/application.yml` , then edit under the `resume` sections. All the content structure are using [YAML](http://yaml.org/) markup language convention.
+To edit resume content with your preferences, open the file: `src/main/resources/application.yml` , then edit under the `resume` sections. All the content structure are using [YAML](http://yaml.org/) markup language convention. Check the customable fields from example or from the [online preview](https://www.mkdika.com).
 
 
 
@@ -36,7 +36,7 @@ mvnw clean package
 ```
 
 
-#### Running the Application
+#### Running Application
 
 ```console
 mvnw spring-boot:run
@@ -44,16 +44,24 @@ mvnw spring-boot:run
 
 Application will run on port `8080`, access the URL  [http://localhost:8080](http://localhost:8080) from web browser.
 
+#### Running Application (alternative)
+
+There is alternative in order to run the application. After build, go to `target` folder, make sure there is `rexumee.jar` file. Then, from that folder run:
+
+```console
+java -jar rexumee.jar
+```
+
 
 
 ## Docker Deployment
 
-Make sure you have installed Docker & Docker Compose prior to do the deployment. 
+Make sure you have installed Docker & Docker Compose prior to deployment. 
 
 - Find out the documentation about Docker Installation at [here](https://docs.docker.com/install/).
 - How to install Docker-Compose [here](https://docs.docker.com/compose/install/).
 
-After that run this from the `docker-compose.yml` & `Dockerfile` location:
+From the project root folder, run:
 
 ```console
 docker-compose up -d
